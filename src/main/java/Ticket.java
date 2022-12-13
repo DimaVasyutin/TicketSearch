@@ -55,15 +55,14 @@ public class Ticket implements Comparable<Ticket> {
 
     @Override
     public int compareTo(Ticket o) {
-       if (this.cost < o.cost){
-           return -1;
-       }
-       if (this.cost > o.cost){
-           return 1;
-       }
-       else {
-           return 0;
-       }
+        if (this.cost < o.cost) {
+            return -1;
+        }
+        if (this.cost > o.cost) {
+            return 1;
+        } else {
+            return 0;
+        }
     }
 }
 
