@@ -5,12 +5,12 @@ import java.util.Arrays;
 
 public class RepositoryTest {
 
-    Ticket ticket1 = new Ticket(1, 30_000,"ATH", "ASF", 240);
-    Ticket ticket2 = new Ticket(2, 45_000,"EGO", "BJV", 300);
-    Ticket ticket3 = new Ticket(3, 20_000,"GNA", "DZN", 120);
-    Ticket ticket4 = new Ticket(4, 15_000,"LCA", "SQQ", 100);
+    Ticket ticket1 = new Ticket(1, 30_000, "ATH", "ASF", 240);
+    Ticket ticket2 = new Ticket(2, 45_000, "EGO", "BJV", 300);
+    Ticket ticket3 = new Ticket(3, 20_000, "GNA", "DZN", 120);
+    Ticket ticket4 = new Ticket(4, 15_000, "LCA", "SQQ", 100);
 
-    Ticket ticket5 = new Ticket(5, 15_000,"LCA", "SQQ", 120);
+    Ticket ticket5 = new Ticket(5, 15_000, "LCA", "SQQ", 120);
 
     @Test
     public void testAddAndFindAllProduct() {
@@ -94,7 +94,6 @@ public class RepositoryTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
-
 
 
 }
